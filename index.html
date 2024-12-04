@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-900"> 
+    <h1 class="text-center font-bold text-4xl text-white my-4">Welcome in javascript Revision !!!! </h1>
+    
+    <!-- on click  -->
+    <!-- <button  onclick="myFunc()" class="text-white px-3 py-2 bg-yellow-700 mx-4">Click this button !!</button> -->
+    <!-- on mouse down  -->
+    <!-- <button  onmousedown="myFunc()" class="text-white px-3 py-2 bg-yellow-700 mx-4">Click this button !!</button> -->
+
+    <script>
+        // var count=5;
+        // for(let i=0; i<=count;i++){
+        //     document.write("hellos <br>") 
+        // } 
+        // function myFunc(){
+        //     document.write("Hey you click this button!!!");
+
+        // } 
+
+        // var a = ['Ali','Usman','Zeshan']
+        // a.forEach(function(value){
+        //     document.write(value , "<br>")
+        // })
+
+        // arrow function 
+
+        // let arrow = () =>{
+        //     return 'hello world'
+        // }
+        // arrow()
+        // document.write(arrow())
+        // console.log(arrow())
+        // resutl = typeof(arrow)
+        // document.write(resutl)
+        // let arrow = () =>{
+        //     return 'hello world'
+        // }
+        // arrow()
+        // document.write(arrow())
+        // console.log(arrow())
+        // resutl = typeof(arrow)
+        // document.write(resutl)
+
+
+
+        // Spread operator 
+        // function sum(name, ...args){
+        //     console.log(arguments)
+        //     document.write(`hello ${name}`)
+        //     let sum  = 0;
+        //     for (let i in args){
+        //         sum += args[i]
+        //     }
+        //     document.write(sum)
+        // }
+        // var arr  = [12,34,56]
+        // sum("abdur", ...arr)
+
+
+
+        // distructuring 
+        // let user =['abdur',23,'narowal'];
+        // let [name, age, city] = user;
+        // console.log(name,city,age)
+        // console.log(city)
+        // document.write(name, '' ,city,'',age)
+
+
+        // Callback \
+        function callBack(a,b){
+            console.log(a+b)
+        }
+        function sum(a,b,sumCallBack){
+            sumCallBack(a,b)
+        }
+        callBack(1,2,sum)
+
+    </script>
+</body>
+</html>  
